@@ -2,7 +2,7 @@ import pandas as pd
 import umap.umap_ as umap
 from sklearn.svm import SVC
 
-class svm:
+class SVM:
     # svm loads, manipulates, and analyzes a given dataset
     def __init__(self, csv):
         df = pd.read_csv(csv)
@@ -38,7 +38,7 @@ class svm:
 # This part below is what actually runs when you run
 # python svm.py
 if __name__ == '__main__':
-    mnist_svm = svm("data/mnist_test.csv")
+    mnist_svm = SVM("data/mnist_test.csv")
     mnist_svm.scale()
     mnist_svm.umap()
     mnist_svm.predict()
