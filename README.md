@@ -4,7 +4,7 @@ Example github repository for BIOF509 Fall 2020
 Changes as part of FP guide.
 
 ## Final Project Example
-Remember to follow the specifications on Canvas. The video and written report (in Latex) are also required, in addition to the github code/commit history and README.
+Remember to follow the specifications on Canvas. The written report (in Latex) is also required (check the deliverables document), in addition to the github code/commit history and README.
 
 ### Table of Contents
 - Introduction 
